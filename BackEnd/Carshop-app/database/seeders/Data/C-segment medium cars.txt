@@ -1,22 +1,22 @@
-| Autó             | Motor               | Hajtás | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)             | Max sebesség | 0-100 km/h |
-| ---------------- | ------------------- | ------ | ------- | --------------------------- | ----------------------- | ------------ | ---------- |
-| Volkswagen Golf  | 1.5 TSI 150 LE      | FWD    | 2019    | 6.5 / 5.0 L                 | 9 000 € / 3 600 000 Ft  | 224 km/h     | 8.5 s      |
-| Toyota Corolla   | 1.8 Hybrid 122 LE   | FWD    | 2019    | 4.2 / 3.6 L                 | 10 000 € / 4 000 000 Ft | 180 km/h     | 10.9 s     |
-| Ford Focus       | 1.0 EcoBoost 125 LE | FWD    | 2018    | 6.3 / 4.8 L                 | 8 000 € / 3 200 000 Ft  | 200 km/h     | 10.0 s     |
-| Honda Civic      | 1.5 Turbo 182 LE    | FWD    | 2018    | 7.5 / 5.6 L                 | 11 000 € / 4 400 000 Ft | 220 km/h     | 8.2 s      |
-| Opel Astra       | 1.4 Turbo 150 LE    | FWD    | 2018    | 6.7 / 5.1 L                 | 7 500 € / 3 000 000 Ft  | 215 km/h     | 8.9 s      |
-| Peugeot 308      | 1.2 PureTech 130    | FWD    | 2019    | 5.8 / 4.5 L                 | 9 000 € / 3 600 000 Ft  | 210 km/h     | 9.7 s      |
-| Renault Mégane   | 1.3 TCe 140         | FWD    | 2019    | 6.0 / 4.7 L                 | 8 000 € / 3 200 000 Ft  | 205 km/h     | 9.5 s      |
-| Škoda Octavia    | 1.5 TSI 150         | FWD    | 2020    | 6.0 / 4.6 L                 | 10 000 € / 4 000 000 Ft | 220 km/h     | 8.5 s      |
-| SEAT León        | 1.5 TSI 150         | FWD    | 2020    | 6.0 / 4.6 L                 | 9 000 € / 3 600 000 Ft  | 220 km/h     | 8.4 s      |
-| Hyundai i30      | 1.4 T-GDI 140       | FWD    | 2019    | 6.2 / 4.8 L                 | 8 000 € / 3 200 000 Ft  | 205 km/h     | 9.2 s      |
-| Kia Ceed         | 1.6 CRDi 136        | FWD    | 2019    | 4.5 / 3.9 L                 | 7 500 € / 3 000 000 Ft  | 200 km/h     | 9.9 s      |
-| Mazda3           | 2.0 SkyActiv 122    | FWD    | 2019    | 6.5 / 4.9 L                 | 9 500 € / 3 800 000 Ft  | 197 km/h     | 10.4 s     |
-| Citroën C4       | 1.2 PureTech 130    | FWD    | 2020    | 6.0 / 4.7 L                 | 8 500 € / 3 400 000 Ft  | 200 km/h     | 9.5 s      |
-| Nissan Pulsar    | 1.2 DIG-T 115       | FWD    | 2018    | 6.3 / 4.8 L                 | 7 000 € / 2 800 000 Ft  | 190 km/h     | 10.5 s     |
-| Volvo V40        | 2.0 D3 150          | FWD    | 2017    | 5.5 / 4.2 L                 | 9 000 € / 3 600 000 Ft  | 210 km/h     | 9.0 s      |
-| BMW 1 Series     | 116i 1.5 109 LE     | RWD    | 2017    | 6.5 / 5.0 L                 | 10 000 € / 4 000 000 Ft | 210 km/h     | 10.5 s     |
-| Audi A3          | 1.5 TFSI 150        | FWD    | 2019    | 6.0 / 4.6 L                 | 12 000 € / 4 800 000 Ft | 224 km/h     | 8.4 s      |
-| Mercedes A-Class | 1.3 Turbo 136       | FWD    | 2019    | 6.5 / 5.0 L                 | 13 000 € / 5 200 000 Ft | 225 km/h     | 8.8 s      |
-| Fiat Tipo        | 1.4 Turbo 120       | FWD    | 2018    | 7.0 / 5.2 L                 | 6 500 € / 2 600 000 Ft  | 200 km/h     | 9.8 s      |
-| Chevrolet Cruze  | 1.6 124 LE          | FWD    | 2016    | 7.5 / 5.5 L                 | 5 500 € / 2 200 000 Ft  | 190 km/h     | 11.0 s     |
+| Autó             | Márka      | Motor               | Hajtás | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)             | Max sebesség | 0-100 km/h |
+| ---------------- | ---------- | ------------------- | ------ | ------- | --------------------------- | ----------------------- | ------------ | ---------- |
+| Volkswagen Golf  | Volkswagen | 1.5 TSI 150 LE      | FWD    | 2019    | 6.5 / 5.0 L                 | 9 000 € / 3 600 000 Ft  | 224 km/h     | 8.5 s      |
+| Toyota Corolla   | Toyota     | 1.8 Hybrid 122 LE   | FWD    | 2019    | 4.2 / 3.6 L                 | 10 000 € / 4 000 000 Ft | 180 km/h     | 10.9 s     |
+| Ford Focus       | Ford       | 1.0 EcoBoost 125 LE | FWD    | 2018    | 6.3 / 4.8 L                 | 8 000 € / 3 200 000 Ft  | 200 km/h     | 10.0 s     |
+| Honda Civic      | Honda      | 1.5 Turbo 182 LE    | FWD    | 2018    | 7.5 / 5.6 L                 | 11 000 € / 4 400 000 Ft | 220 km/h     | 8.2 s      |
+| Opel Astra       | Opel       | 1.4 Turbo 150 LE    | FWD    | 2018    | 6.7 / 5.1 L                 | 7 500 € / 3 000 000 Ft  | 215 km/h     | 8.9 s      |
+| Peugeot 308      | Peugeot    | 1.2 PureTech 130    | FWD    | 2019    | 5.8 / 4.5 L                 | 9 000 € / 3 600 000 Ft  | 210 km/h     | 9.7 s      |
+| Renault Mégane   | Renault    | 1.3 TCe 140         | FWD    | 2019    | 6.0 / 4.7 L                 | 8 000 € / 3 200 000 Ft  | 205 km/h     | 9.5 s      |
+| Škoda Octavia    | Skoda      | 1.5 TSI 150         | FWD    | 2020    | 6.0 / 4.6 L                 | 10 000 € / 4 000 000 Ft | 220 km/h     | 8.5 s      |
+| SEAT León        | SEAT       | 1.5 TSI 150         | FWD    | 2020    | 6.0 / 4.6 L                 | 9 000 € / 3 600 000 Ft  | 220 km/h     | 8.4 s      |
+| Hyundai i30      | Hyundai    | 1.4 T-GDI 140       | FWD    | 2019    | 6.2 / 4.8 L                 | 8 000 € / 3 200 000 Ft  | 205 km/h     | 9.2 s      |
+| Kia Ceed         | Kia        | 1.6 CRDi 136        | FWD    | 2019    | 4.5 / 3.9 L                 | 7 500 € / 3 000 000 Ft  | 200 km/h     | 9.9 s      |
+| Mazda3           | Mazda      | 2.0 SkyActiv 122    | FWD    | 2019    | 6.5 / 4.9 L                 | 9 500 € / 3 800 000 Ft  | 197 km/h     | 10.4 s     |
+| Citroën C4       | Citroën    | 1.2 PureTech 130    | FWD    | 2020    | 6.0 / 4.7 L                 | 8 500 € / 3 400 000 Ft  | 200 km/h     | 9.5 s      |
+| Nissan Pulsar    | Nissan     | 1.2 DIG-T 115       | FWD    | 2018    | 6.3 / 4.8 L                 | 7 000 € / 2 800 000 Ft  | 190 km/h     | 10.5 s     |
+| Volvo V40        | Volvo      | 2.0 D3 150          | FWD    | 2017    | 5.5 / 4.2 L                 | 9 000 € / 3 600 000 Ft  | 210 km/h     | 9.0 s      |
+| BMW 1 Series     | BMW        | 116i 1.5 109 LE     | RWD    | 2017    | 6.5 / 5.0 L                 | 10 000 € / 4 000 000 Ft | 210 km/h     | 10.5 s     |
+| Audi A3          | Audi       | 1.5 TFSI 150        | FWD    | 2019    | 6.0 / 4.6 L                 | 12 000 € / 4 800 000 Ft | 224 km/h     | 8.4 s      |
+| Mercedes A-Class | Mercedes   | 1.3 Turbo 136       | FWD    | 2019    | 6.5 / 5.0 L                 | 13 000 € / 5 200 000 Ft | 225 km/h     | 8.8 s      |
+| Fiat Tipo        | Fiat       | 1.4 Turbo 120       | FWD    | 2018    | 7.0 / 5.2 L                 | 6 500 € / 2 600 000 Ft  | 200 km/h     | 9.8 s      |
+| Chevrolet Cruze  | Chevrolet  | 1.6 124 LE          | FWD    | 2016    | 7.5 / 5.5 L                 | 5 500 € / 2 200 000 Ft  | 190 km/h     | 11.0 s     |

@@ -1,22 +1,22 @@
-| Autó              | Motor             | Hajtás    | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)             | Max sebesség | 0-100 km/h |
-| ----------------- | ----------------- | --------- | ------- | --------------------------- | ----------------------- | ------------ | ---------- |
-| BMW 5 Series      | 2.0d 190 LE       | RWD / AWD | 2019    | 6.5 / 4.8 L                 | 18 000 € / 7 200 000 Ft | 250 km/h     | 7.2 s      |
-| Mercedes E-Class  | 2.0d 194 LE       | RWD / AWD | 2019    | 6.3 / 4.7 L                 | 19 000 € / 7 600 000 Ft | 250 km/h     | 7.0 s      |
-| Audi A6           | 2.0 TDI 190 LE    | FWD / AWD | 2019    | 6.2 / 4.6 L                 | 18 500 € / 7 400 000 Ft | 250 km/h     | 7.3 s      |
-| Škoda Superb      | 2.0 TDI 190 LE    | FWD / AWD | 2020    | 5.8 / 4.4 L                 | 15 000 € / 6 000 000 Ft | 240 km/h     | 7.7 s      |
-| Volkswagen Passat | 2.0 TDI 150 LE    | FWD / AWD | 2019    | 5.9 / 4.3 L                 | 14 000 € / 5 600 000 Ft | 230 km/h     | 8.6 s      |
-| Volvo S60         | 2.0 D4 190 LE     | FWD / AWD | 2019    | 5.7 / 4.4 L                 | 16 000 € / 6 400 000 Ft | 240 km/h     | 7.9 s      |
-| Volvo V60         | 2.0 D4 190 LE     | FWD / AWD | 2019    | 5.8 / 4.5 L                 | 16 500 € / 6 600 000 Ft | 240 km/h     | 8.0 s      |
-| Mazda 6           | 2.2d 184 LE       | FWD       | 2018    | 5.9 / 4.3 L                 | 13 000 € / 5 200 000 Ft | 223 km/h     | 8.1 s      |
-| Toyota Camry      | 2.5 Hybrid 218 LE | FWD       | 2020    | 4.5 / 4.0 L                 | 20 000 € / 8 000 000 Ft | 180 km/h     | 8.3 s      |
-| Honda Accord      | 1.5 Turbo 190 LE  | FWD       | 2019    | 6.8 / 5.0 L                 | 17 000 € / 6 800 000 Ft | 220 km/h     | 7.8 s      |
-| Peugeot 508       | 1.5 BlueHDi 130   | FWD       | 2019    | 5.0 / 3.9 L                 | 16 000 € / 6 400 000 Ft | 210 km/h     | 9.5 s      |
-| Opel Insignia     | 2.0 CDTI 170 LE   | FWD / AWD | 2018    | 6.0 / 4.6 L                 | 12 000 € / 4 800 000 Ft | 230 km/h     | 8.9 s      |
-| Ford Mondeo       | 2.0 TDCi 180 LE   | FWD       | 2018    | 6.3 / 4.8 L                 | 11 000 € / 4 400 000 Ft | 225 km/h     | 8.5 s      |
-| BMW 3 Series      | 320d 190 LE       | RWD / AWD | 2019    | 5.8 / 4.2 L                 | 17 000 € / 6 800 000 Ft | 250 km/h     | 7.1 s      |
-| Mercedes C-Class  | 2.0d 194 LE       | RWD / AWD | 2019    | 6.2 / 4.6 L                 | 18 000 € / 7 200 000 Ft | 245 km/h     | 7.3 s      |
-| Audi A4           | 2.0 TDI 190 LE    | FWD / AWD | 2019    | 5.9 / 4.4 L                 | 17 500 € / 7 000 000 Ft | 240 km/h     | 7.4 s      |
-| Jaguar XE         | 2.0d 180 LE       | RWD / AWD | 2018    | 6.5 / 4.9 L                 | 14 000 € / 5 600 000 Ft | 230 km/h     | 8.1 s      |
-| Lexus IS          | 2.5 Hybrid 223 LE | AWD       | 2019    | 5.2 / 4.5 L                 | 18 000 € / 7 200 000 Ft | 200 km/h     | 8.5 s      |
-| Alfa Romeo Giulia | 2.2d 190 LE       | RWD / AWD | 2018    | 6.0 / 4.5 L                 | 17 000 € / 6 800 000 Ft | 235 km/h     | 7.1 s      |
-| Tesla Model 3     | Dual Motor AWD    | AWD       | 2020    | 15 kWh / 14 kWh             | 22 000 € / 8 800 000 Ft | 261 km/h     | 5.6 s      |
+| Autó              | Márka      | Motor             | Hajtás    | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)             | Max sebesség | 0-100 km/h |
+| ----------------- | ---------- | ----------------- | --------- | ------- | --------------------------- | ----------------------- | ------------ | ---------- |
+| BMW 5 Series      | BMW        | 2.0d 190 LE       | RWD / AWD | 2019    | 6.5 / 4.8 L                 | 18 000 € / 7 200 000 Ft | 250 km/h     | 7.2 s      |
+| Mercedes E-Class  | Mercedes   | 2.0d 194 LE       | RWD / AWD | 2019    | 6.3 / 4.7 L                 | 19 000 € / 7 600 000 Ft | 250 km/h     | 7.0 s      |
+| Audi A6           | Audi       | 2.0 TDI 190 LE    | FWD / AWD | 2019    | 6.2 / 4.6 L                 | 18 500 € / 7 400 000 Ft | 250 km/h     | 7.3 s      |
+| Škoda Superb      | Skoda      | 2.0 TDI 190 LE    | FWD / AWD | 2020    | 5.8 / 4.4 L                 | 15 000 € / 6 000 000 Ft | 240 km/h     | 7.7 s      |
+| Volkswagen Passat | Volkswagen | 2.0 TDI 150 LE    | FWD / AWD | 2019    | 5.9 / 4.3 L                 | 14 000 € / 5 600 000 Ft | 230 km/h     | 8.6 s      |
+| Volvo S60         | Volvo      | 2.0 D4 190 LE     | FWD / AWD | 2019    | 5.7 / 4.4 L                 | 16 000 € / 6 400 000 Ft | 240 km/h     | 7.9 s      |
+| Volvo V60         | Volvo      | 2.0 D4 190 LE     | FWD / AWD | 2019    | 5.8 / 4.5 L                 | 16 500 € / 6 600 000 Ft | 240 km/h     | 8.0 s      |
+| Mazda 6           | Mazda      | 2.2d 184 LE       | FWD       | 2018    | 5.9 / 4.3 L                 | 13 000 € / 5 200 000 Ft | 223 km/h     | 8.1 s      |
+| Toyota Camry      | Toyota     | 2.5 Hybrid 218 LE | FWD       | 2020    | 4.5 / 4.0 L                 | 20 000 € / 8 000 000 Ft | 180 km/h     | 8.3 s      |
+| Honda Accord      | Honda      | 1.5 Turbo 190 LE  | FWD       | 2019    | 6.8 / 5.0 L                 | 17 000 € / 6 800 000 Ft | 220 km/h     | 7.8 s      |
+| Peugeot 508       | Peugeot    | 1.5 BlueHDi 130   | FWD       | 2019    | 5.0 / 3.9 L                 | 16 000 € / 6 400 000 Ft | 210 km/h     | 9.5 s      |
+| Opel Insignia     | Opel       | 2.0 CDTI 170 LE   | FWD / AWD | 2018    | 6.0 / 4.6 L                 | 12 000 € / 4 800 000 Ft | 230 km/h     | 8.9 s      |
+| Ford Mondeo       | Ford       | 2.0 TDCi 180 LE   | FWD       | 2018    | 6.3 / 4.8 L                 | 11 000 € / 4 400 000 Ft | 225 km/h     | 8.5 s      |
+| BMW 3 Series      | BMW        | 320d 190 LE       | RWD / AWD | 2019    | 5.8 / 4.2 L                 | 17 000 € / 6 800 000 Ft | 250 km/h     | 7.1 s      |
+| Mercedes C-Class  | Mercedes   | 2.0d 194 LE       | RWD / AWD | 2019    | 6.2 / 4.6 L                 | 18 000 € / 7 200 000 Ft | 245 km/h     | 7.3 s      |
+| Audi A4           | Audi       | 2.0 TDI 190 LE    | FWD / AWD | 2019    | 5.9 / 4.4 L                 | 17 500 € / 7 000 000 Ft | 240 km/h     | 7.4 s      |
+| Jaguar XE         | Jaguar     | 2.0d 180 LE       | RWD / AWD | 2018    | 6.5 / 4.9 L                 | 14 000 € / 5 600 000 Ft | 230 km/h     | 8.1 s      |
+| Lexus IS          | Lexus      | 2.5 Hybrid 223 LE | AWD       | 2019    | 5.2 / 4.5 L                 | 18 000 € / 7 200 000 Ft | 200 km/h     | 8.5 s      |
+| Alfa Romeo Giulia | Alfa Romeo | 2.2d 190 LE       | RWD / AWD | 2018    | 6.0 / 4.5 L                 | 17 000 € / 6 800 000 Ft | 235 km/h     | 7.1 s      |
+| Tesla Model 3     | Tesla      | Dual Motor AWD    | AWD       | 2020    | 15 kWh / 14 kWh             | 22 000 € / 8 800 000 Ft | 261 km/h     | 5.6 s      |

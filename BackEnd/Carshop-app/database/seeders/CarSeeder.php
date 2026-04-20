@@ -27,7 +27,7 @@ class CarSeeder extends Seeder
                  $brand_ids = DB::table('brand')->pluck('id', 'name');
         $carcategories_ids = DB::table('car_category')->pluck('id', 'name');
          $engine_ids = DB::table('engine')->pluck('id', 'name');
-         $frame_ids = DB::table('drive')->pluck('id', 'name');
+         $drive_ids = DB::table('drive')->pluck('id', 'name');
         foreach($catfiledata as $categoryL) {
 
         $textfilepath = "seeders/Data/".$categoryL.".txt";
@@ -44,19 +44,19 @@ array_splice($filedata , 0, 2);
 
             $linereadcounter = 0;
         foreach ($filedata as $line) {
-
+var_dump($line);
       $line = explode("|", $line);
     $name = trim( $line[1]);
       
     $brand = trim( $line[2]);
     $engine = trim( $line[3]);
-    $frame = trim( $line[4]);
-    $fuel_efficiency = trim( $line[5]);
-    $year = trim( $line[6]);
-    $power = trim( $line[7]);
-    $custumer_price = trim( $line[8]);
-      $speed = trim( $line[9]);
-      $accelaration = trim( $line[10]);
+    $drvie = trim( $line[4]);
+    $fuel_efficiency = trim( $line[4]);
+    $year = trim( $line[5]);
+ //   $power = trim( $line[7]);
+    $price = trim( $line[7]);
+      $speed = trim( $line[8]);
+      $accelaration = trim( $line[9]);
 
         
        $item = [
@@ -64,11 +64,11 @@ array_splice($filedata , 0, 2);
                 'car_category_id' => $carcategories_ids[$categoryL],
                 'brand_id' => $brand_ids[$brand],
                 'engine_id'=> $engine_ids[$engine],
-                'drive_id'=> $frame_ids[$frame],
+                'drive_id'=> $drive_ids[$drvie],
                 'Year'=> $year,
                 'fuel_efficiency'=> $fuel_efficiency,
-                'power'=> $power,
-                'custumer_price'=> $custumer_price,
+             //   'power'=> $power,
+                'price'=> $price,
                 'speed'=> $speed,
                          'acceleration'=> $accelaration,
                  'created_at' => now(),

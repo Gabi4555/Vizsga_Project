@@ -20,9 +20,8 @@ class DatabaseSeeder extends Seeder
          $this->call([
        CarCategorySeeder::class,
        BrandSeeder::class,
-       AgilitySeeder::class,
        EngineSeeder::class,
-       FrameSeeder::class,
+        DriveSeeder::class,
        CarSeeder::class 
    
         ]);

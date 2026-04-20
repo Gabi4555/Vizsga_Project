@@ -1,22 +1,22 @@
-| Autó                     | Motor               | Hajtás    | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)             | Max sebesség | 0-100 km/h |
-| ------------------------ | ------------------- | --------- | ------- | --------------------------- | ----------------------- | ------------ | ---------- |
-| Volkswagen Touran        | 1.5 TSI 150 LE      | FWD       | 2019    | 7.2 / 5.5 L                 | 14 000 € / 5 600 000 Ft | 210 km/h     | 9.5 s      |
-| Renault Scénic           | 1.3 TCe 140 LE      | FWD       | 2019    | 7.0 / 5.3 L                 | 12 000 € / 4 800 000 Ft | 205 km/h     | 9.8 s      |
-| Ford S-Max               | 2.0 TDCi 190 LE     | FWD / AWD | 2018    | 7.5 / 5.8 L                 | 15 000 € / 6 000 000 Ft | 220 km/h     | 8.9 s      |
-| Ford Galaxy              | 2.0 TDCi 190 LE     | FWD       | 2018    | 7.6 / 5.9 L                 | 15 500 € / 6 200 000 Ft | 215 km/h     | 9.2 s      |
-| Opel Zafira              | 1.6 CDTi 134 LE     | FWD       | 2018    | 6.8 / 5.2 L                 | 10 000 € / 4 000 000 Ft | 200 km/h     | 10.5 s     |
-| Peugeot 5008             | 1.5 BlueHDi 130     | FWD       | 2019    | 6.0 / 4.7 L                 | 16 000 € / 6 400 000 Ft | 205 km/h     | 10.0 s     |
-| Citroën Grand C4 Picasso | 1.6 BlueHDi 120     | FWD       | 2017    | 6.0 / 4.5 L                 | 11 000 € / 4 400 000 Ft | 190 km/h     | 11.0 s     |
-| BMW 2 Active Tourer      | 1.5 136 LE          | FWD       | 2019    | 6.5 / 5.0 L                 | 17 000 € / 6 800 000 Ft | 205 km/h     | 9.3 s      |
-| Mercedes B-Class         | 1.5d 116 LE         | FWD       | 2019    | 5.5 / 4.3 L                 | 18 000 € / 7 200 000 Ft | 200 km/h     | 10.5 s     |
-| Volkswagen Sharan        | 2.0 TDI 150 LE      | FWD       | 2018    | 7.8 / 6.0 L                 | 18 000 € / 7 200 000 Ft | 200 km/h     | 10.5 s     |
-| Seat Alhambra            | 2.0 TDI 150 LE      | FWD       | 2018    | 7.7 / 5.9 L                 | 17 000 € / 6 800 000 Ft | 200 km/h     | 10.3 s     |
-| Toyota Verso             | 1.8 VVT-i 147 LE    | FWD       | 2017    | 7.2 / 5.4 L                 | 10 000 € / 4 000 000 Ft | 185 km/h     | 11.0 s     |
-| Dacia Lodgy              | 1.5 dCi 110 LE      | FWD       | 2018    | 6.5 / 5.0 L                 | 8 000 € / 3 200 000 Ft  | 175 km/h     | 12.5 s     |
-| Renault Kangoo           | 1.5 dCi 95 LE       | FWD       | 2019    | 5.8 / 4.6 L                 | 9 000 € / 3 600 000 Ft  | 170 km/h     | 12.8 s     |
-| Citroën Berlingo         | 1.5 BlueHDi 130     | FWD       | 2019    | 5.6 / 4.4 L                 | 11 000 € / 4 400 000 Ft | 185 km/h     | 11.2 s     |
-| Peugeot Rifter           | 1.5 BlueHDi 130     | FWD       | 2019    | 5.7 / 4.5 L                 | 11 500 € / 4 600 000 Ft | 185 km/h     | 11.1 s     |
-| Fiat Doblo               | 1.6 Multijet 120 LE | FWD       | 2018    | 6.7 / 5.1 L                 | 9 500 € / 3 800 000 Ft  | 170 km/h     | 12.0 s     |
-| Ford Transit Custom      | 2.0 TDCi 130 LE     | RWD / AWD | 2019    | 7.8 / 6.2 L                 | 20 000 € / 8 000 000 Ft | 170 km/h     | 11.5 s     |
-| Mercedes Vito            | 2.1 CDI 136 LE      | RWD / AWD | 2019    | 8.0 / 6.5 L                 | 22 000 € / 8 800 000 Ft | 180 km/h     | 11.0 s     |
-| Volkswagen Caddy         | 2.0 TDI 122 LE      | FWD       | 2019    | 6.9 / 5.3 L                 | 13 000 € / 5 200 000 Ft | 185 km/h     | 11.8 s     |
+| Márka / Brand | Autó                     | Motor               | Hajtás    | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)             | Max sebesség | 0-100 km/h |
+| ------------- | ------------------------ | ------------------- | --------- | ------- | --------------------------- | ----------------------- | ------------ | ---------- |
+| Volkswagen    | Volkswagen Touran        | 1.5 TSI 150 LE      | FWD       | 2019    | 7.2 / 5.5 L                 | 14 000 € / 5 600 000 Ft | 210 km/h     | 9.5 s      |
+| Renault       | Renault Scénic           | 1.3 TCe 140 LE      | FWD       | 2019    | 7.0 / 5.3 L                 | 12 000 € / 4 800 000 Ft | 205 km/h     | 9.8 s      |
+| Ford          | Ford S-Max               | 2.0 TDCi 190 LE     | FWD / AWD | 2018    | 7.5 / 5.8 L                 | 15 000 € / 6 000 000 Ft | 220 km/h     | 8.9 s      |
+| Ford          | Ford Galaxy              | 2.0 TDCi 190 LE     | FWD       | 2018    | 7.6 / 5.9 L                 | 15 500 € / 6 200 000 Ft | 215 km/h     | 9.2 s      |
+| Opel          | Opel Zafira              | 1.6 CDTi 134 LE     | FWD       | 2018    | 6.8 / 5.2 L                 | 10 000 € / 4 000 000 Ft | 200 km/h     | 10.5 s     |
+| Peugeot       | Peugeot 5008             | 1.5 BlueHDi 130     | FWD       | 2019    | 6.0 / 4.7 L                 | 16 000 € / 6 400 000 Ft | 205 km/h     | 10.0 s     |
+| Citroën       | Citroën Grand C4 Picasso | 1.6 BlueHDi 120     | FWD       | 2017    | 6.0 / 4.5 L                 | 11 000 € / 4 400 000 Ft | 190 km/h     | 11.0 s     |
+| BMW           | BMW 2 Active Tourer      | 1.5 136 LE          | FWD       | 2019    | 6.5 / 5.0 L                 | 17 000 € / 6 800 000 Ft | 205 km/h     | 9.3 s      |
+| Mercedes-Benz | Mercedes B-Class         | 1.5d 116 LE         | FWD       | 2019    | 5.5 / 4.3 L                 | 18 000 € / 7 200 000 Ft | 200 km/h     | 10.5 s     |
+| Volkswagen    | Volkswagen Sharan        | 2.0 TDI 150 LE      | FWD       | 2018    | 7.8 / 6.0 L                 | 18 000 € / 7 200 000 Ft | 200 km/h     | 10.5 s     |
+| SEAT          | Seat Alhambra            | 2.0 TDI 150 LE      | FWD       | 2018    | 7.7 / 5.9 L                 | 17 000 € / 6 800 000 Ft | 200 km/h     | 10.3 s     |
+| Toyota        | Toyota Verso             | 1.8 VVT-i 147 LE    | FWD       | 2017    | 7.2 / 5.4 L                 | 10 000 € / 4 000 000 Ft | 185 km/h     | 11.0 s     |
+| Dacia         | Dacia Lodgy              | 1.5 dCi 110 LE      | FWD       | 2018    | 6.5 / 5.0 L                 | 8 000 € / 3 200 000 Ft  | 175 km/h     | 12.5 s     |
+| Renault       | Renault Kangoo           | 1.5 dCi 95 LE       | FWD       | 2019    | 5.8 / 4.6 L                 | 9 000 € / 3 600 000 Ft  | 170 km/h     | 12.8 s     |
+| Citroën       | Citroën Berlingo         | 1.5 BlueHDi 130     | FWD       | 2019    | 5.6 / 4.4 L                 | 11 000 € / 4 400 000 Ft | 185 km/h     | 11.2 s     |
+| Peugeot       | Peugeot Rifter           | 1.5 BlueHDi 130     | FWD       | 2019    | 5.7 / 4.5 L                 | 11 500 € / 4 600 000 Ft | 185 km/h     | 11.1 s     |
+| Fiat          | Fiat Doblo               | 1.6 Multijet 120 LE | FWD       | 2018    | 6.7 / 5.1 L                 | 9 500 € / 3 800 000 Ft  | 170 km/h     | 12.0 s     |
+| Ford          | Ford Transit Custom      | 2.0 TDCi 130 LE     | RWD / AWD | 2019    | 7.8 / 6.2 L                 | 20 000 € / 8 000 000 Ft | 170 km/h     | 11.5 s     |
+| Mercedes-Benz | Mercedes Vito            | 2.1 CDI 136 LE      | RWD / AWD | 2019    | 8.0 / 6.5 L                 | 22 000 € / 8 800 000 Ft | 180 km/h     | 11.0 s     |
+| Volkswagen    | Volkswagen Caddy         | 2.0 TDI 122 LE      | FWD       | 2019    | 6.9 / 5.3 L                 | 13 000 € / 5 200 000 Ft | 185 km/h     | 11.8 s     |

@@ -1,22 +1,22 @@
-| Autó                       | Motor              | Hajtás    | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)              | Max sebesség | 0-100 km/h |
-| -------------------------- | ------------------ | --------- | ------- | --------------------------- | ------------------------ | ------------ | ---------- |
-| Toyota RAV4                | 2.5 Hybrid 222 LE  | FWD / AWD | 2020    | 5.5 / 4.8 L                 | 18 000 € / 7 200 000 Ft  | 180 km/h     | 8.1 s      |
-| Honda CR-V                 | 2.0 Hybrid 184 LE  | AWD       | 2019    | 5.8 / 4.9 L                 | 17 000 € / 6 800 000 Ft  | 200 km/h     | 8.6 s      |
-| Nissan Qashqai             | 1.3 DIG-T 140 LE   | FWD / AWD | 2019    | 6.5 / 5.2 L                 | 14 000 € / 5 600 000 Ft  | 195 km/h     | 10.5 s     |
-| Hyundai Tucson             | 1.6 T-GDI 150 LE   | FWD / AWD | 2020    | 6.8 / 5.5 L                 | 16 000 € / 6 400 000 Ft  | 201 km/h     | 9.2 s      |
-| Kia Sportage               | 1.6 CRDi 136 LE    | FWD / AWD | 2019    | 6.0 / 5.0 L                 | 15 000 € / 6 000 000 Ft  | 185 km/h     | 10.0 s     |
-| Mazda CX-5                 | 2.2 Diesel 184 LE  | AWD       | 2019    | 6.2 / 5.0 L                 | 17 000 € / 6 800 000 Ft  | 208 km/h     | 9.0 s      |
-| Volkswagen Tiguan          | 2.0 TDI 150 LE     | FWD / AWD | 2019    | 6.5 / 5.0 L                 | 18 000 € / 7 200 000 Ft  | 205 km/h     | 9.3 s      |
-| Škoda Kodiaq               | 2.0 TDI 190 LE     | AWD       | 2019    | 6.8 / 5.2 L                 | 19 000 € / 7 600 000 Ft  | 210 km/h     | 8.2 s      |
-| SEAT Ateca                 | 1.5 TSI 150 LE     | FWD       | 2019    | 6.5 / 5.1 L                 | 15 000 € / 6 000 000 Ft  | 202 km/h     | 8.9 s      |
-| Ford Kuga                  | 2.0 EcoBlue 150 LE | AWD       | 2019    | 6.7 / 5.3 L                 | 16 000 € / 6 400 000 Ft  | 200 km/h     | 9.0 s      |
-| Peugeot 3008               | 1.5 BlueHDi 130    | FWD       | 2019    | 5.8 / 4.6 L                 | 16 000 € / 6 400 000 Ft  | 195 km/h     | 10.2 s     |
-| Renault Kadjar             | 1.5 dCi 115 LE     | FWD       | 2018    | 5.7 / 4.4 L                 | 12 000 € / 4 800 000 Ft  | 190 km/h     | 11.0 s     |
-| Citroën C5 Aircross        | 1.5 BlueHDi 130    | FWD       | 2019    | 5.6 / 4.5 L                 | 15 000 € / 6 000 000 Ft  | 190 km/h     | 10.4 s     |
-| Dacia Duster               | 1.5 dCi 115 LE     | FWD / AWD | 2019    | 5.9 / 4.7 L                 | 10 000 € / 4 000 000 Ft  | 175 km/h     | 11.5 s     |
-| BMW X1                     | 18d 150 LE         | FWD / AWD | 2019    | 6.2 / 4.9 L                 | 20 000 € / 8 000 000 Ft  | 205 km/h     | 9.2 s      |
-| Audi Q3                    | 2.0 TDI 150 LE     | AWD       | 2019    | 6.5 / 5.0 L                 | 22 000 € / 8 800 000 Ft  | 210 km/h     | 8.8 s      |
-| Mercedes GLA               | 200d 150 LE        | FWD / AWD | 2019    | 6.3 / 5.0 L                 | 23 000 € / 9 200 000 Ft  | 210 km/h     | 8.7 s      |
-| Volvo XC60                 | 2.0 D4 190 LE      | AWD       | 2019    | 6.0 / 4.8 L                 | 25 000 € / 10 000 000 Ft | 220 km/h     | 8.3 s      |
-| Land Rover Discovery Sport | 2.0 TD4 180 LE     | AWD       | 2019    | 7.2 / 5.8 L                 | 26 000 € / 10 400 000 Ft | 210 km/h     | 8.9 s      |
-| Jeep Grand Cherokee        | 3.0 V6 250 LE      | 4WD       | 2018    | 10.5 / 7.8 L                | 28 000 € / 11 200 000 Ft | 220 km/h     | 8.0 s      |
+| Márka / Brand | Autó                       | Motor              | Hajtás    | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)              | Max sebesség | 0-100 km/h |
+| ------------- | -------------------------- | ------------------ | --------- | ------- | --------------------------- | ------------------------ | ------------ | ---------- |
+| Toyota        | Toyota RAV4                | 2.5 Hybrid 222 LE  | FWD / AWD | 2020    | 5.5 / 4.8 L                 | 18 000 € / 7 200 000 Ft  | 180 km/h     | 8.1 s      |
+| Honda         | Honda CR-V                 | 2.0 Hybrid 184 LE  | AWD       | 2019    | 5.8 / 4.9 L                 | 17 000 € / 6 800 000 Ft  | 200 km/h     | 8.6 s      |
+| Nissan        | Nissan Qashqai             | 1.3 DIG-T 140 LE   | FWD / AWD | 2019    | 6.5 / 5.2 L                 | 14 000 € / 5 600 000 Ft  | 195 km/h     | 10.5 s     |
+| Hyundai       | Hyundai Tucson             | 1.6 T-GDI 150 LE   | FWD / AWD | 2020    | 6.8 / 5.5 L                 | 16 000 € / 6 400 000 Ft  | 201 km/h     | 9.2 s      |
+| Kia           | Kia Sportage               | 1.6 CRDi 136 LE    | FWD / AWD | 2019    | 6.0 / 5.0 L                 | 15 000 € / 6 000 000 Ft  | 185 km/h     | 10.0 s     |
+| Mazda         | Mazda CX-5                 | 2.2 Diesel 184 LE  | AWD       | 2019    | 6.2 / 5.0 L                 | 17 000 € / 6 800 000 Ft  | 208 km/h     | 9.0 s      |
+| Volkswagen    | Volkswagen Tiguan          | 2.0 TDI 150 LE     | FWD / AWD | 2019    | 6.5 / 5.0 L                 | 18 000 € / 7 200 000 Ft  | 205 km/h     | 9.3 s      |
+| Skoda         | Skoda Kodiaq               | 2.0 TDI 190 LE     | AWD       | 2019    | 6.8 / 5.2 L                 | 19 000 € / 7 600 000 Ft  | 210 km/h     | 8.2 s      |
+| SEAT          | SEAT Ateca                 | 1.5 TSI 150 LE     | FWD       | 2019    | 6.5 / 5.1 L                 | 15 000 € / 6 000 000 Ft  | 202 km/h     | 8.9 s      |
+| Ford          | Ford Kuga                  | 2.0 EcoBlue 150 LE | AWD       | 2019    | 6.7 / 5.3 L                 | 16 000 € / 6 400 000 Ft  | 200 km/h     | 9.0 s      |
+| Peugeot       | Peugeot 3008               | 1.5 BlueHDi 130    | FWD       | 2019    | 5.8 / 4.6 L                 | 16 000 € / 6 400 000 Ft  | 195 km/h     | 10.2 s     |
+| Renault       | Renault Kadjar             | 1.5 dCi 115 LE     | FWD       | 2018    | 5.7 / 4.4 L                 | 12 000 € / 4 800 000 Ft  | 190 km/h     | 11.0 s     |
+| Citroën       | Citroën C5 Aircross        | 1.5 BlueHDi 130    | FWD       | 2019    | 5.6 / 4.5 L                 | 15 000 € / 6 000 000 Ft  | 190 km/h     | 10.4 s     |
+| Dacia         | Dacia Duster               | 1.5 dCi 115 LE     | FWD / AWD | 2019    | 5.9 / 4.7 L                 | 10 000 € / 4 000 000 Ft  | 175 km/h     | 11.5 s     |
+| BMW           | BMW X1                     | 18d 150 LE         | FWD / AWD | 2019    | 6.2 / 4.9 L                 | 20 000 € / 8 000 000 Ft  | 205 km/h     | 9.2 s      |
+| Audi          | Audi Q3                    | 2.0 TDI 150 LE     | AWD       | 2019    | 6.5 / 5.0 L                 | 22 000 € / 8 800 000 Ft  | 210 km/h     | 8.8 s      |
+| Mercedes-Benz | Mercedes GLA               | 200d 150 LE        | FWD / AWD | 2019    | 6.3 / 5.0 L                 | 23 000 € / 9 200 000 Ft  | 210 km/h     | 8.7 s      |
+| Volvo         | Volvo XC60                 | 2.0 D4 190 LE      | AWD       | 2019    | 6.0 / 4.8 L                 | 25 000 € / 10 000 000 Ft | 220 km/h     | 8.3 s      |
+| Land Rover    | Land Rover Discovery Sport | 2.0 TD4 180 LE     | AWD       | 2019    | 7.2 / 5.8 L                 | 26 000 € / 10 400 000 Ft | 210 km/h     | 8.9 s      |
+| Jeep          | Jeep Grand Cherokee        | 3.0 V6 250 LE      | 4WD       | 2018    | 10.5 / 7.8 L                | 28 000 € / 11 200 000 Ft | 220 km/h     | 8.0 s      |

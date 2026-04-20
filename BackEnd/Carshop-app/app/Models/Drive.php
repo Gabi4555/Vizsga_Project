@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Drive extends Model
 {
     //
-    protected $table = 'frame';
+    protected $table = 'drive';
           protected $fillable = [
         'name'
 

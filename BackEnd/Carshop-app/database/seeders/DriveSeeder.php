@@ -42,7 +42,7 @@ array_splice($filedata , 0, 2);
         foreach ($filedata as $line) {
 
       $line = explode("|", $line);
-    $name = trim( $line[5]);
+    $name = trim( $line[4]);
      
       
 

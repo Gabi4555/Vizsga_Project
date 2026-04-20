@@ -34,15 +34,15 @@ return new class extends Migration
             $table->year('Year');
 $table->string('fuel_efficiency');
 
-    $table->integer('power');
-    $table->decimal('price',8,2)->nullable();
+ //   $table->integer('power');
+    $table->string('price');
   //  $table->decimal('to_make_price',8,2)->nullable();
   //  $table->foreignId('agility_id')
  //           ->constrained('agility')
   //          ->cascadeOnDelete();
 
 
-    $table->integer('speed');
+    $table->string('speed');
     $table->string('acceleration');
             $table->timestamps();
         });
