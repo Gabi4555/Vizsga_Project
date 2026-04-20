@@ -15,7 +15,7 @@ class Car extends Model
         'brand_id',
         'engine_id',
         'drive_id',
-        'Year',
+        'year',
         'fuel_efficiency',
         'price',
         'speed',

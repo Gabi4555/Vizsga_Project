@@ -94,7 +94,7 @@ public function allcategory(Request $request) {
                'engine_id' => ['required', 'integer', 'exists:engine,id'],
                'drive_id' => ['required', 'integer', 'exists:drive,id'],
             'name' => ['required', 'string' ],
-           'year' => ['required', 'digits:4'],
+           'year' => ['required', 'digits:4', 'integer', 'between:1901,2155'],
             'fuel_efficiency' =>  ['required', 'string' ],
              'price' => ['required', 'string'],
              'speed' => ['required', 'string'],
