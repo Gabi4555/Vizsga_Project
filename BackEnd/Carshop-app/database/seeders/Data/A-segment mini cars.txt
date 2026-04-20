@@ -1,0 +1,22 @@
+| Autó                  | Motor             | Hajtás    | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)            | Max sebesség | 0-100 km/h |
+| --------------------- | ----------------- | --------- | ------- | --------------------------- | ---------------------- | ------------ | ---------- |
+| Fiat 500              | 1.0 Hybrid 70 LE  | FWD       | 2020    | 4.7 / 3.8 L                 | 9000 € / 3 600 000 Ft  | 167 km/h     | 13.8 s     |
+| Hyundai i10           | 1.0 MPI 67 LE     | FWD       | 2019    | 5.0 / 4.0 L                 | 8000 € / 3 200 000 Ft  | 156 km/h     | 14.6 s     |
+| Kia Picanto           | 1.0 MPI 67 LE     | FWD       | 2018    | 5.1 / 4.1 L                 | 7000 € / 2 800 000 Ft  | 158 km/h     | 14.3 s     |
+| Volkswagen Up!        | 1.0 MPI 65 LE     | FWD       | 2019    | 4.8 / 3.9 L                 | 8500 € / 3 400 000 Ft  | 160 km/h     | 15.6 s     |
+| Toyota Aygo           | 1.0 VVT-i 72 LE   | FWD       | 2020    | 4.9 / 3.8 L                 | 8500 € / 3 400 000 Ft  | 160 km/h     | 13.8 s     |
+| Citroën C1            | 1.0 VTi 72 LE     | FWD       | 2019    | 4.8 / 3.7 L                 | 7500 € / 3 000 000 Ft  | 160 km/h     | 13.8 s     |
+| Peugeot 108           | 1.0 VTi 72 LE     | FWD       | 2019    | 4.9 / 3.8 L                 | 7500 € / 3 000 000 Ft  | 160 km/h     | 13.5 s     |
+| Renault Twingo        | 1.0 SCe 65 LE     | RWD       | 2018    | 5.2 / 4.2 L                 | 7000 € / 2 800 000 Ft  | 151 km/h     | 15.1 s     |
+| Suzuki Ignis          | 1.2 DualJet 83 LE | FWD / AWD | 2019    | 5.0 / 4.3 L                 | 9000 € / 3 600 000 Ft  | 165 km/h     | 12.7 s     |
+| Mitsubishi Space Star | 1.2 MIVEC 71 LE   | FWD       | 2020    | 5.0 / 4.2 L                 | 7000 € / 2 800 000 Ft  | 167 km/h     | 13.5 s     |
+| Smart Fortwo          | 1.0 71 LE         | RWD       | 2018    | 4.6 / 3.9 L                 | 9000 € / 3 600 000 Ft  | 151 km/h     | 14.4 s     |
+| Smart Forfour         | 1.0 71 LE         | RWD       | 2018    | 4.7 / 4.0 L                 | 8500 € / 3 400 000 Ft  | 151 km/h     | 15.9 s     |
+| Suzuki Alto           | 1.0 68 LE         | FWD       | 2017    | 4.5 / 3.6 L                 | 4500 € / 1 800 000 Ft  | 155 km/h     | 13.5 s     |
+| Chevrolet Spark       | 1.0 68 LE         | FWD       | 2017    | 5.1 / 4.0 L                 | 5000 € / 2 000 000 Ft  | 154 km/h     | 15.5 s     |
+| Toyota iQ             | 1.0 VVT-i 68 LE   | FWD       | 2016    | 4.8 / 3.9 L                 | 6000 € / 2 400 000 Ft  | 150 km/h     | 14.7 s     |
+| Dacia Spring          | Elektromos 45 LE  | FWD       | 2021    | 13.9 kWh / 100 km           | 11000 € / 4 400 000 Ft | 125 km/h     | 19.1 s     |
+| Fiat Panda            | 1.0 Hybrid 70 LE  | FWD / AWD | 2020    | 5.0 / 4.0 L                 | 9000 € / 3 600 000 Ft  | 164 km/h     | 13.9 s     |
+| Suzuki Celerio        | 1.0 DualJet 67 LE | FWD       | 2018    | 4.4 / 3.7 L                 | 6000 € / 2 400 000 Ft  | 155 km/h     | 14.0 s     |
+| Skoda Citigo          | 1.0 MPI 60 LE     | FWD       | 2018    | 4.7 / 3.6 L                 | 7000 € / 2 800 000 Ft  | 162 km/h     | 14.4 s     |
+| SEAT Mii              | 1.0 MPI 60 LE     | FWD       | 2018    | 4.7 / 3.6 L                 | 7000 € / 2 800 000 Ft  | 161 km/h     | 14.4 s     |

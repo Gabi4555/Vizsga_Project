@@ -1,0 +1,4 @@
+A-segment mini cars
+B-segment small cars
+C-segment medium cars
+D-segment large cars

@@ -1,0 +1,22 @@
+| Autó                    | Motor                | Hajtás    | Évjárat | Fogyasztás város / országút | Ár (€ / Ft)              | Max sebesség | 0-100 km/h |
+| ----------------------- | -------------------- | --------- | ------- | --------------------------- | ------------------------ | ------------ | ---------- |
+| BMW 5 Series            | 2.0d 190 LE          | RWD / AWD | 2020    | 6.5 / 4.8 L                 | 18 000 € / 7 200 000 Ft  | 250 km/h     | 7.2 s      |
+| Mercedes E-Class        | 2.0d 194 LE          | RWD / AWD | 2020    | 6.3 / 4.7 L                 | 19 000 € / 7 600 000 Ft  | 250 km/h     | 7.0 s      |
+| Audi A6                 | 2.0 TDI 190 LE       | FWD / AWD | 2020    | 6.2 / 4.6 L                 | 18 500 € / 7 400 000 Ft  | 250 km/h     | 7.3 s      |
+| Volvo S90               | 2.0 D4 190 LE        | FWD / AWD | 2019    | 5.8 / 4.4 L                 | 17 000 € / 6 800 000 Ft  | 240 km/h     | 7.9 s      |
+| Volvo V90               | 2.0 D4 190 LE        | FWD / AWD | 2019    | 5.9 / 4.5 L                 | 18 000 € / 7 200 000 Ft  | 240 km/h     | 8.0 s      |
+| Lexus ES                | 2.5 Hybrid 218 LE    | FWD       | 2020    | 4.5 / 4.0 L                 | 20 000 € / 8 000 000 Ft  | 180 km/h     | 8.5 s      |
+| Jaguar XF               | 2.0d 180 LE          | RWD / AWD | 2018    | 6.7 / 5.0 L                 | 14 000 € / 5 600 000 Ft  | 235 km/h     | 8.0 s      |
+| Genesis G80             | 2.2d 202 LE          | RWD / AWD | 2020    | 6.8 / 5.0 L                 | 22 000 € / 8 800 000 Ft  | 240 km/h     | 7.5 s      |
+| Maserati Ghibli         | 3.0 V6 350 LE        | RWD / AWD | 2018    | 11.0 / 7.5 L                | 28 000 € / 11 200 000 Ft | 270 km/h     | 5.5 s      |
+| Tesla Model S           | Dual Motor AWD       | AWD       | 2020    | 18 kWh / 16 kWh             | 35 000 € / 14 000 000 Ft | 250 km/h     | 3.2 s      |
+| Audi A7                 | 3.0 TDI 231 LE       | AWD       | 2019    | 6.8 / 5.2 L                 | 30 000 € / 12 000 000 Ft | 250 km/h     | 6.5 s      |
+| BMW 6 Series Gran Coupe | 3.0d 313 LE          | RWD / AWD | 2018    | 7.0 / 5.3 L                 | 25 000 € / 10 000 000 Ft | 250 km/h     | 5.4 s      |
+| Mercedes CLS            | 3.0d 286 LE          | RWD / AWD | 2019    | 6.9 / 5.2 L                 | 26 000 € / 10 400 000 Ft | 250 km/h     | 5.7 s      |
+| Porsche Panamera        | 3.0 V6 330 LE        | AWD       | 2019    | 9.0 / 6.5 L                 | 40 000 € / 16 000 000 Ft | 264 km/h     | 5.3 s      |
+| BMW i5                  | Electric AWD         | AWD       | 2024    | 17 kWh / 15 kWh             | 60 000 € / 24 000 000 Ft | 230 km/h     | 3.8 s      |
+| Mercedes EQE            | Electric AWD         | AWD       | 2023    | 16 kWh / 14 kWh             | 58 000 € / 23 200 000 Ft | 210 km/h     | 4.5 s      |
+| Audi A8                 | 3.0 TDI 286 LE       | AWD       | 2019    | 7.0 / 5.5 L                 | 35 000 € / 14 000 000 Ft | 250 km/h     | 5.9 s      |
+| BMW 7 Series            | 3.0d 265 LE          | RWD / AWD | 2019    | 7.1 / 5.4 L                 | 38 000 € / 15 200 000 Ft | 250 km/h     | 5.8 s      |
+| Mercedes S-Class        | 3.0d 286 LE          | AWD       | 2019    | 7.2 / 5.6 L                 | 45 000 € / 18 000 000 Ft | 250 km/h     | 5.4 s      |
+| Lexus LS                | 3.5 V6 Hybrid 359 LE | AWD       | 2019    | 6.5 / 5.2 L                 | 50 000 € / 20 000 000 Ft | 250 km/h     | 5.0 s      |
