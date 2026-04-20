@@ -31,7 +31,7 @@ return new class extends Migration
   $table->foreignId('drive_id')
             ->constrained('drive')
             ->cascadeOnDelete();
-            $table->year('Year');
+            $table->year('year')->default(2007);
 $table->string('fuel_efficiency');
 
  //   $table->integer('power');

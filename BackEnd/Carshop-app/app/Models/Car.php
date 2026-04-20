@@ -7,10 +7,20 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Car extends Model
 {
     //
- protected $table = 'car';
+ 
+    protected $table = 'car';
      protected $fillable = [
-        'weaponcategories_Id',
-        'name'
+        'car_category_id',
+        'name',
+        'brand_id',
+        'engine_id',
+        'drive_id',
+        'Year',
+        'fuel_efficiency',
+        'price',
+        'speed',
+        'acceleration'
+
         
 
        // 'is_available'
@@ -21,15 +31,13 @@ class Car extends Model
 
     ];
 
- public function Agility(): BelongsTo{
-        return $this->belongsTo(Agility::class );
-    }
+
 
         public function Brand(): BelongsTo{
         return $this->belongsTo(Brand::class);
     }
 
-         public function CarCategory(): BelongsTo{
+         public function carCategory(): BelongsTo{
         return $this->belongsTo(CarCategory::class);
     }
 

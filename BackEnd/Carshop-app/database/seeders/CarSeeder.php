@@ -44,7 +44,7 @@ array_splice($filedata , 0, 2);
 
             $linereadcounter = 0;
         foreach ($filedata as $line) {
-var_dump($line);
+
       $line = explode("|", $line);
     $name = trim( $line[1]);
       

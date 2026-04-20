@@ -4,3 +4,6 @@ C-segment medium cars
 D-segment large cars
 E-segment executive cars
 F-segment luxury cars
+J-segment sport utility cars
+M-segment multi purpose cars
+S-segment Sports coupés
