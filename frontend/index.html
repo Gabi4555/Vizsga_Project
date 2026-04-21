@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fire first ask questions later</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="https://unpkg.com/vue-router@4"></script>
+</head>
+<body>
+<div id="app">
+
+<!-- NAV -->
+  <nav class="navbar">
+    <h1 class="logo" @click="$router.push('/')">
+    <img src="icon.png" class="logo-icon">
+    Fire first ask questions later
+    </h1>
+
+    <input 
+      class="search"
+      type="text"
+      placeholder="Search equipment..."
+      v-model="searchQuery"
+      @keyup.enter="goSearch"
+    />
+
+    <ul class="navbar-ul ">
+      <li class="navbar-li" @click="$router.push('/')">Home</li>
+      <li class="navbar-li"@click="$router.push('/categories')">Categories</li>
+      <li class="navbar-li"@click="$router.push('/about')">About</li>
+      <li class="navbar-li basket_button" @click="openBasket">
+        Cart
+        <ul class="basket_ul" v-show="isVisible">
+        <li class="basket-item" v-for="item in items">
+          <p>{{ item.gun.name }}</p>
+          <p>{{ item.quantity}} pieces</p>
+          <p>${{ new Intl.NumberFormat('en-US').format((item.gun.price * item.quantity).toFixed(2)) }}</p>
+          <img src="trash.png" class="remove-from-cart" @click="deleteFromCart(item.gunorderID)"></img>
+        </li>
+        <p class="cart-subtotal" v-if="items.length > 0">Subtotal: $ {{ new Intl.NumberFormat('en-US').format(subtotal) }}</p>
+        <p class="basket-sender" @click="$router.push('/cart')"  v-if="items.length > 0">Go to Cart</p>
+        <p v-if="items.length === 0">Your cart is empty!</p>
+      </ul>
+      </li>
+    </ul>
+    
+    
+  </nav>
+
+<!-- VIEW -->
+
+<div class="container">
+  <router-view 
+    :products="products"
+    :categories="categories"
+    :searchQuery="searchQuery"
+  ></router-view>
+</div>
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Fire first ask questions later</p>
+  </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
