@@ -30,7 +30,7 @@ html, body {
 .price {
   font-size: 1.1rem;
   padding: 0 10px 10px;
-  color: #e63946;
+  color: #396de6;
 }
 
 /* navbar */
@@ -46,7 +46,7 @@ html, body {
 }
 
 .logo {
-  color: #e63946;
+  color: #396de6;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -72,7 +72,7 @@ html, body {
 }
 
 .navbar-li:hover {
-  color: #e63946;
+  color: #396de6;
 }
 
 /* kereső */
@@ -105,7 +105,7 @@ html, body {
 
 .hero h2 {
   font-size: 2.4rem;
-  color: #e63946;
+  color: #396de6;
   margin-bottom: 10px;
   transition: 0.5s;
 }
@@ -140,7 +140,7 @@ html, body {
 
 .hero-overlay h2 {
   font-size: 2rem;
-  color: #e63946;
+  color: #396de6;
   margin-bottom: 10px;
 }
 
@@ -190,7 +190,7 @@ html, body {
 }
 
 .category-card:hover {
-  border-color: #e63946;
+  border-color: #396de6;;
   transform: translateY(-3px);
 }
 
@@ -219,7 +219,7 @@ html, body {
 
 .card:hover {
   transform: translateY(-6px);
-  border-color: #e63946;
+  border-color: #396de6;
 }
 
 .card img {
@@ -299,8 +299,8 @@ html, body {
 }
 
 .place-order:hover {
-  color: #e63946;
-  border-color: #e63946;
+  color: #396de6;
+  border-color: #396de6;
   cursor: pointer;
 }
 
@@ -393,8 +393,8 @@ html, body {
 }
 
 .basket-sender:hover {
-  color: #e63946;
-  border-color: #e63946;
+  color: #396de6;
+  border-color: #396de6;
 }
 
 /* maga a kosár oldal*/
@@ -449,7 +449,7 @@ html, body {
 }
 
 .cart-quantity-control {
-  color: #e63946;;
+  color: #396de6;;
 }
 
 .cart-quantity {
@@ -489,7 +489,7 @@ html, body {
 }
 
 .incomplete-fields {
-  color: #e63946;
+  color: #fc0015;
   font-size: 2rem;
 }
 
@@ -504,8 +504,8 @@ html, body {
 }
 
 .purchase:hover {
-  color: #e63946;
-  border-color: #e63946;
+  color: #396de6;
+  border-color: #396de6;
 }
 
 /* reszponzivitás */

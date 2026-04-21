@@ -1,47 +1,28 @@
-//főoldal
 const Home = {
-  props: ["products"], //megkapjuk a termékek objektumot
+  props: ["cars"],
 data() {
   return { 
-    //diák amiket cserélünk
     slides: [
       {
-        title: "Trustworthy Employees",
-        text: "Only the best work here so you can be confident in what you see here.",
+        title: "PLACEHOLDER",
+        text: "PLACEHOLDER",
         image: "slidy/slidy1.jpg"
-      },
-      {
-        title: "Only the Best",
-        text: "In the name of quality we only sell the finest weaponry.",
-        image: "slidy/slidy2.jpg"
-      },
-      {
-        title: "Fast Delivery",
-        text: "If you order by noon, you shall have the items in your hand tomorrow.",
-        image: "slidy/slidy3.jpg"
-      },
-      {
-        title: "Without Borders",
-        text: "Let it be place, weapon or caliber borders are not a problem for us.",
-        image: "slidy/slidy4.jpg"
       }
     ],
-    currentSlide: 0 //melyik dián vagyunk
+    currentSlide: 0
   };
 },
-//metódusok
 methods: { 
-    closeBasket() { //esztétikai kiírás
+    closeBasket() {
       this.$root.isVisible = false;
     }
   },
-  mounted() { //4 másodpercenként váltja a slideokat
+  mounted() { óó
     setInterval(() => {
       this.currentSlide = (this.currentSlide + 1) % this.slides.length;
     }, 4000);
     this.closeBasket();
   },
-  //kiválaszt 3 random terméket amit majd az ajánlatok arraybe dob be ami kiírásra kerül
   computed: {
     featured() {
       if (!this.products) return [];
@@ -70,18 +51,11 @@ methods: {
 </section>
 
 <section class="section category-list">
-  
-
-        <div class="category-card" @click="$router.push('/category/Handguns')">Handguns</div>
-        <div class="category-card" @click="$router.push('/category/Anti-Material Rifle')">Anti-Material Rifles</div>
-        <div class="category-card" @click="$router.push('/category/Assault Rifle')">Assault Rifles</div>
-        <div class="category-card" @click="$router.push('/category/Submachine Guns')">Submachine Guns</div>
-        <div class="category-card" @click="$router.push('/category/Hunting Rifles')">Hunting Rifles</div>
-        <div class="category-card" @click="$router.push('/category/Hand Grenades')">Hand Grenades</div>
+        <div class="category-card" @click="$router.push('/category/S-segment Sports coupés')">S-segment Sports coupés</div>
 </section>
 
 <section class="section">
-  <h2>Some weapons we might think you'll like!</h2>
+  <h2>Some cars we might think you'll like!</h2>
 </section>
 
 <section class="section">
@@ -229,34 +203,32 @@ const ProductPage = {
     <div>
       <h2 class="product-name">{{product.name}}</h2>
       <table class:"product-info">
-        <tr>
-          <th class="product-specification"> Designed by </th>
-          <td class="product-data"> {{product.countries.name}} </td>
+
+         <tr>
+          <th class="product-specification"> year </th>
+          <td class="product-data"> {{product.year}} </td>
         </tr>
-        <tr>
-          <th class="product-specification"> Weight (kilogram) </th>
-          <td class="product-data"> {{product.Weight_kg.slice(0, -3)}} </td>
+
+         <tr>
+          <th class="product-specification"> engine specifications </th>
+          <td class="product-data"> {{product.engine.name}} </td>
         </tr>
-        <tr>
-          <th class="product-specification"> Lenght (milimeters) </th>
-          <td class="product-data"> {{product.Length_mm.slice(0, -5)}} </td>
+
+         <tr>
+          <th class="product-specification"> drivetrain </th>
+          <td class="product-data"> {{product.drive.name}} </td>
         </tr>
+
         <tr>
-          <th class="product-specification"> Caliber </th>
-          <td class="product-data"> {{product.Action}} </td>
+          <th class="product-specification"> 0-60 </th>
+          <td class="product-data"> {{product.acceleration}} </td>
         </tr>
+
         <tr>
-          <th class="product-specification"> Action </th>
-          <td class="product-data"> {{product.Caliber}} </td>
+          <th class="product-specification"> fuel efficiency</th>
+          <td class="product-data"> {{product.fuel_efficiency}} </td>
         </tr>
-        <tr>
-          <th class="product-specification"> Feed </th>
-          <td class="product-data"> {{product.Feed}} </td>
-        </tr>
-        <tr>
-          <th class="product-specification"> Sights </th>
-          <td class="product-data"> {{product.Sights}} </td>
-        </tr>
+
       </table>
       <p class="price product-price">$ {{ new Intl.NumberFormat('en-US').format(price) }}</p>
       <p class="place-order" @click="addToBasket(product, purchasedAmount)">Add to cart.</p>
@@ -284,7 +256,7 @@ const SearchPage = {
 
       this.loading = true;
 
-      fetch("http://127.0.0.1:8000/api/weapons/search", {
+      fetch("http://127.0.0.1:8000/api/car/search", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -351,18 +323,18 @@ const About = {
     <div class="products">
     <div class="about">
       <h2>About Us:</h2>
-      <p>We are a few guys who think everyone should be able to buy a mortar and have fun.</p>
-      <p>We are a few people who think everyone should be able to buy a mortar and have fun.</p>
+      <p>PLACEHOLDER</p>
+      
     </div>
     <div class="about">
     <h2>Meet The Team</h2>
       <div>
-        <h1>Zsombor-Kiss Fodor</h1>
-        <p>The guy who does all the funky magic you see before you.</p>
+        <h1>Gábriel Újvárosi</h1>
+        <p>Hello Customers, I am the main developer of the site who makes all this look easy and light!</p>
       </div>
       <div>
-        <h1>Marcel Szöllősy</h1>
-        <p>The man who you come to about guns.</p>
+        <h1>Konor Fugolvits</h1>
+        <p>I am the man who you should ask what you should get as your first gun, as gift.</p>
       </div>
     </div>
     </div>
@@ -458,7 +430,7 @@ const Cart = {
     orderItemCreation(status) {
       if (status) {
         this.$root.items.forEach(item => {
-        this.orderItems[item.gun.id] = item.quantity;
+        this.orderItems[item.car.id] = item.quantity;
       });
 
       console.log(this.orderItems)
@@ -542,8 +514,8 @@ const Cart = {
       <div class="payment-method">
         <input type="radio" value="Cash" v-model="paymentMethod" />
         <label for="Cash">Cash</label>
-        <input type="radio" value="Crypto" v-model="paymentMethod" />
-        <labe for="Crypto">Crypto</label>
+        <input type="radio" value="BankTransfer" v-model="paymentMethod" />
+        <labe for="Crypto">Bank Transfer</label>
       </div>
 
       <h3>Shipping address:</h3>
@@ -644,7 +616,7 @@ const app = Vue.createApp({
 
     //megszerezzük az összes terméket
     fetchProducts() {
-      fetch("http://127.0.0.1:8000/api/weapons/all")
+      fetch("http://127.0.0.1:8000/api/car/all")
         .then(res => res.json())
         .then(data => {
           this.products = data;
@@ -653,7 +625,7 @@ const app = Vue.createApp({
 
     //megszerezzük az összes kategóriát
     fetchCategories() {
-      fetch("http://127.0.0.1:8000/api/weaponcategories/all/name")
+      fetch("http://127.0.0.1:8000/api/carCategories/all/name")
         .then(res => res.json())
         .then(data => {
           this.categories = data;
