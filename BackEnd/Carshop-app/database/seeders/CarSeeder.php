@@ -54,7 +54,16 @@ array_splice($filedata , 0, 2);
     $fuel_efficiency = trim( $line[4]);
     $year = trim( $line[5]);
  //   $power = trim( $line[7]);
-    $price = trim( $line[7]);
+   // $price = trim( $line[7]);
+ 
+  $price_split = explode(  '/', $line[7]);
+
+ 
+
+  
+  
+$price = str_replace(['~', ' ', '€'], '', $price_split[0]);
+
       $speed = trim( $line[8]);
       $accelaration = trim( $line[9]);
 

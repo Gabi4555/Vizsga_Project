@@ -17,7 +17,7 @@ methods: {
       this.$root.isVisible = false;
     }
   },
-  mounted() { óó
+  mounted() { 
     setInterval(() => {
       this.currentSlide = (this.currentSlide + 1) % this.slides.length;
     }, 4000);
@@ -110,8 +110,8 @@ const CategoryPage = {
   const name = this.$route.params.name;
 
   return this.products.filter(p => 
-    p.weaponcategories &&
-    p.weaponcategories.cname === name
+    p.car_category &&
+    p.car_category.cname === name
   );
 }
   },
@@ -449,7 +449,7 @@ const Cart = {
           "country" : this.country,
           "city": this.city,
           "street" : this.street,
-          "weapons": this.orderItems,
+          "cars": this.orderItems,
           "house" : this.house,
           "firstName" : this.firstName,
           "lastName" : this.lastName
@@ -611,7 +611,7 @@ const app = Vue.createApp({
     //termékhez valő képet megkapjuk
     getImage(item) {
     //az adott fegyverkategóriás képét adja vissza
-    return `weaponCategoryImages/${item.weaponcategories.cname}.jpg`;
+    return `carCategoryImages/${item.car_category.name}.jpg`;
     },
 
     //megszerezzük az összes terméket

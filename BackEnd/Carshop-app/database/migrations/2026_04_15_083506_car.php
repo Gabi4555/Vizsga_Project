@@ -35,7 +35,7 @@ return new class extends Migration
 $table->string('fuel_efficiency');
 
  //   $table->integer('power');
-    $table->string('price');
+    $table->integer('price');
   //  $table->decimal('to_make_price',8,2)->nullable();
   //  $table->foreignId('agility_id')
  //           ->constrained('agility')
