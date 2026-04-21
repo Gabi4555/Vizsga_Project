@@ -30,6 +30,8 @@ class OrderController extends Controller
             "country"=> ["required", "string"],
             "city" => ["required", "string"],
             "street"=> ["required", "string"],
+                        "cars" => 'required|array',
+            "data.*" => 'intiger',
             "house"=> ["required", "string"],
             "firstName"=> ["required", "string"],
             "lastName"=> ["required", "string"]
@@ -41,15 +43,28 @@ class OrderController extends Controller
            $orders  = OrdersModel::create($validated);
       $createdata = array_merge($createdata, [
     'order_id' => $orders->id
+
+
 ]);
 
    $personal = OrderPersonalInfoesModel::create($createdata);
     $location = OrderLocationInfoesModel::create($createdata);
 
+ $items = [];
+foreach ($validated['cars'] as $car_id => $quantity) {
+     $itemcreate = array_merge($createdata, [
+        'car_id' => $car_id,
+        'quantity'  => $quantity,
+    ]);
+
+    $items[] = OrderItemsModel::create($itemcreate);
+}
+
         return response()->json([
             'data' => collect($orders)
     ->merge($personal)
     ->merge($location)
+    ->merge($items)
     ->toArray()
         ], 201);}
 
