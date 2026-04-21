@@ -4,8 +4,8 @@ data() {
   return { 
     slides: [
       {
-        title: "PLACEHOLDER",
-        text: "PLACEHOLDER",
+        title: "Megbízható Szálítók",
+        text: "Mindig számithat a pontos kiszálításra",
         image: "slidy/slidy1.jpg"
       }
     ],
@@ -52,6 +52,8 @@ methods: {
 
 <section class="section category-list">
         <div class="category-card" @click="$router.push('/category/S-segment Sports coupés')">S-segment Sports coupés</div>
+        <div class="category-card" @click="$router.push('/category/E-segment executive cars')">E-segment executive cars</div>
+         <div class="category-card" @click="$router.push('/category/F-segment luxury cars')">F-segment luxury cars</div>
 </section>
 
 <section class="section">
