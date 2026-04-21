@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\CarCategoryController;
 use App\Http\Controllers\API\CarController;
+use App\Http\Controllers\API\OrderController;
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
@@ -30,3 +31,6 @@ Route::put('/car', [CarController::class, 'update']);
 Route::delete('/car', [CarController::class, 'destroy']);
 Route::post('/car/create', [CarController::class,'store']);
 
+// || Orders || \\ 
+
+Route::post('/Orders/create', [OrderController::class, 'store']);
