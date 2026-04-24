@@ -1,5 +1,5 @@
 const Home = {
-  props: ["cars"],
+  props: ["products"],
 data() {
   return { 
     slides: [
@@ -113,7 +113,7 @@ const CategoryPage = {
 
   return this.products.filter(p => 
     p.car_category &&
-    p.car_category.cname === name
+    p.car_category.name === name
   );
 }
   },
@@ -622,6 +622,7 @@ const app = Vue.createApp({
         .then(res => res.json())
         .then(data => {
           this.products = data;
+          //console.log(data);
       });
     },
 
@@ -631,6 +632,7 @@ const app = Vue.createApp({
         .then(res => res.json())
         .then(data => {
           this.categories = data;
+          //console.log(data);
       });
     },
 
