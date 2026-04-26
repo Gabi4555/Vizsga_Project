@@ -337,18 +337,19 @@ const About = {
     <div class="products">
     <div class="about">
       <h2>About Us:</h2>
-      <p>PLACEHOLDER</p>
+      <p></p>
       
     </div>
     <div class="about">
     <h2>Meet The Team</h2>
       <div>
         <h1>Gábriel Újvárosi Katona</h1>
-        <p>Hello Customers, I am the main developer of the site who makes all this look easy and light!</p>
+        <p>Hello Customers, I am the main developer of the Backend of this site who makes all this look easy and light!</p>
       </div>
       <div>
         <h1>Konor Fugolvits</h1>
-        <p>I am the man who you should ask what you should get as your first gun, as gift.</p>
+        <p> I am the developer who built this site. </p>
+        <p>I am the man who you should ask what you should get as your first car, as gift.</p>
       </div>
     </div>
     </div>
