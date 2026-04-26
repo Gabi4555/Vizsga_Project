@@ -4,10 +4,22 @@ data() {
   return { 
     slides: [
       {
-        title: "Megbízható Szálítók",
-        text: "Mindig számithat a pontos kiszálításra",
+        title: "Trustworthy Employees",
+        text: "Only the best work here so you can be confident in what you see here is handled well.",
         image: "slidy/slidy1.jpg"
-      }
+      },
+      {
+        title: "Only the Best",
+        text: "In the name of quality we only sell the finest auto vehicles for everyone at the best price there is.",
+        image: "slidy/slidy2.jpg"
+      },
+ 
+      {
+        title: "Any place, Any time",
+        text: "Let it be any place, time, or car  we will deliver.",
+        image: "slidy/slidy3.jpg"
+      },
+      
     ],
     currentSlide: 0
   };
@@ -331,7 +343,7 @@ const About = {
     <div class="about">
     <h2>Meet The Team</h2>
       <div>
-        <h1>Gábriel Újvárosi</h1>
+        <h1>Gábriel Újvárosi Katona</h1>
         <p>Hello Customers, I am the main developer of the site who makes all this look easy and light!</p>
       </div>
       <div>
