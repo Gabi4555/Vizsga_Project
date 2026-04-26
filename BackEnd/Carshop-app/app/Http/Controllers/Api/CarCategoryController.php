@@ -6,85 +6,125 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\CarCategory;
 
-
-
 class CarCategoryController extends Controller
 {
-    //
- public function all() {
+    /**
+     * Get all car categories
+     */
+    public function all() {
+        // Retrieve all records from car_category table
+        $carCategory = CarCategory::get();
 
-         $carCategory = CarCategory::get();
-
-      
-
+        // Return as JSON response
         return response()->json($carCategory);
-
     }
-  public function listallid() {
+
+    /**
+     * Get only IDs of all car categories
+     */
+    public function listallid() {
+        // Get all categories
         $carCategory = CarCategory::get();
         
-        $ids = $carCategory->pluck('id') ;
-        return response()->json( $ids        );
+        // Extract only the 'id' column values
+        $ids = $carCategory->pluck('id');
 
+        // Return IDs as JSON
+        return response()->json($ids);
     }
-      public function listallname() {
+
+    /**
+     * Get only names of all car categories
+     */
+    public function listallname() {
+        // Get all categories
         $carCategory = CarCategory::get();
         
-        $names = $carCategory->pluck('name') ;
-        return response()->json( $names );
+        // Extract only the 'name' column values
+        $names = $carCategory->pluck('name');
 
+        // Return names as JSON
+        return response()->json($names);
     }      
-    
 
-
-        public function show(Request $request){
+    /**
+     * Show a single car category by ID
+     */
+    public function show(Request $request){
+        // Validate incoming request
         $validated = $request->validate([
             'id' => ['required', 'integer', 'exists:car_category,id']
         ]);
+
+        // Find the category or fail with 404
         $carCategory = CarCategory::findOrFail($validated['id']);
 
+        // Return the found category
         return response()->json([
             'data' => $carCategory
         ]);
     }
-     public function store(Request $request) {
+
+    /**
+     * Store a new car category
+     */
+    public function store(Request $request) {
+        // Validate input data
         $validated = $request->validate([
-            'name' => ['required', 'string', 'max:255', 'unique:car_category,name']//,
-     //       'is_active'=>['boolean']
+            'name' => ['required', 'string', 'max:255', 'unique:car_category,name']
+            // 'is_active' => ['boolean'] // Optional field (currently disabled)
         ]);
+
+        // Create new category
         $carCategory  = CarCategory::create($validated);
+
+        // Return created resource with 201 status
         return response()->json([
             'data' => $carCategory 
         ], 201);
     }
-     public function update(Request $request) {
+
+    /**
+     * Update an existing car category
+     */
+    public function update(Request $request) {
+        // Validate input data
         $validated = $request->validate([
             'id' => ['required', 'integer', 'exists:car_category,id'],
             'name' => ['required', 'string', 'max:255'],
-          //  'is_active' => ['boolean']
+            // 'is_active' => ['boolean'] // Optional field
         ]);
-            $carCategory = CarCategory::findOrFail($validated['id']);
 
+        // Find category or fail
+        $carCategory = CarCategory::findOrFail($validated['id']);
+
+        // Update category with validated data
         $carCategory->update($validated);
         
+        // Return updated (fresh) data
         return response()->json([
             'data' => $carCategory->fresh()
         ]);
     }
-     public function destroy(Request $request){
+
+    /**
+     * Delete a car category
+     */
+    public function destroy(Request $request){
+        // Validate request
         $validated = $request->validate([
             'id' => ['required', 'integer', 'exists:car_category,id'],
         ]);
 
+        // Find category or fail
         $carCategory = CarCategory::findOrFail($validated['id']);
 
+        // Delete the category
         $carCategory->delete();
 
+        // Return response (204 = No Content)
         return response()->json([
             'messege' => 'Deleted'
         ], 204);
-       }
-
-
- 
+    }
 }
